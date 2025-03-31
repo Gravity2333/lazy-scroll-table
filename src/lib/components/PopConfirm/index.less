@@ -1,0 +1,76 @@
+.popconfirmContainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .trigger {
+    cursor: pointer;
+  }
+  
+  .popconfirm {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* 让弹窗靠左 */
+    background: #fff;
+    padding: 6px 10px; /* 缩小弹窗 */
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+    min-width: 120px;
+    text-align: left;
+    font-size: 12px;
+    animation: fadeIn 0.2s ease-in-out;
+    white-space: nowrap;
+  }
+  
+  .title {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 6px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 6px;
+  }
+  
+  .confirmButton,
+  .cancelButton {
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .confirmButton {
+    background: #ff4d4f;
+    color: #fff;
+  }
+  
+  .confirmButton:hover {
+    background: #d9363e;
+  }
+  
+  .cancelButton {
+    background: #f5f5f5;
+    color: #333;
+  }
+  
+  .cancelButton:hover {
+    background: #e0e0e0;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%) translateY(-50%) scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(-100%) translateY(-50%) scale(1);
+    }
+  }
+  

@@ -1,0 +1,46 @@
+{
+  "name": "lazy-scroll-table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "start": "npx webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "@types/react": "^18.3.16",
+    "@types/react-dom": "^18.3.5",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-slick": "^0.23.13",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.6.3",
+    "less": "^4.2.2",
+    "less-loader": "^12.2.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^4.0.0",
+    "svgo": "^3.3.2",
+    "typescript": "^4.4.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.25.9",
+    "@tsparticles/react": "^3.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
